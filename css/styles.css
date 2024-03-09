@@ -6,14 +6,48 @@ body {
 
 ul {
   list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
 button {
   cursor: pointer;
+}
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header-navigation {
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .visually-hidden {
@@ -67,6 +101,12 @@ button {
 
 .header-contact {
   font-style: normal;
+}
+
+.header-contact-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .header-contact-link {
