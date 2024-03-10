@@ -328,7 +328,7 @@ button {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 
 .portfolio-items {
@@ -357,8 +357,8 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding-top: 32px;
-  padding-bottom: 8px;
   padding-left: 16px;
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
